@@ -1,4 +1,4 @@
-// nth febo num??
+// wether n is fibonacci or not?
 
 #include<bits/stdc++.h>
 using namespace std; 
@@ -20,11 +20,10 @@ int main(){
   cout<<"Enter the number : ";
   cin>>n;
   if(isFeboNumber(n)){
-      cout<<"Yes"<<endl;
+      cout<<"Yes, "<<n<<" is a febonacci number"<<endl;
   }else{
-       cout<<"No"<<endl;
+      cout<<"No, "<<n<<" is not a febonacci number"<<endl;
   }
-
   return 0;
 }
 
